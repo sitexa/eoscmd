@@ -34,10 +34,6 @@ import android.view.View;
 import com.sitexa.eoscmd.di.component.ActivityComponent;
 
 
-/**
- * Created by swapnibble on 2017-08-24.
- */
-
 public abstract class BaseFragment extends Fragment implements MvpView {
     private BaseActivity mActivity;
 

@@ -5,10 +5,6 @@ import com.google.gson.annotations.Expose;
 import com.sitexa.eoscmd.crypto.digest.Sha256;
 import com.sitexa.eoscmd.util.StringUtils;
 
-/**
- * Created by swapnibble on 2018-01-10.
- */
-
 public class GetCodeResponse {
     @Expose
     private String account_name;

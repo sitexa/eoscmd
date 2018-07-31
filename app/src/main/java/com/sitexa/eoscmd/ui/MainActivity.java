@@ -15,7 +15,6 @@ import com.sitexa.eoscmd.util.StringUtils;
 
 import javax.inject.Inject;
 
-
 public class MainActivity extends BaseActivity {
     private static final int REQ_OPEN_CONNECTION_INFO = 10;
 
@@ -30,12 +29,10 @@ public class MainActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // di
         getActivityComponent().inject(this);
 
         setContentView(R.layout.activity_main);
         setToolbarConfig(R.id.toolbar, false);
-
 
         TabLayout tabLayout = findViewById(R.id.tabs);
 

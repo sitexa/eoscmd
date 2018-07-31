@@ -5,9 +5,6 @@ import android.text.Spanned;
 import android.text.TextUtils;
 import android.widget.MultiAutoCompleteTextView;
 
-/**
- * Created by swapnibble on 2017-12-12.
- */
 
 public class WhitSpaceTokenizer implements MultiAutoCompleteTextView.Tokenizer {
     @Override

@@ -34,9 +34,6 @@ import android.widget.TextView;
 import com.sitexa.eoscmd.R;
 import com.sitexa.eoscmd.ui.base.BaseDialog;
 
-/**
- * Created by swapnibble on 2017-11-13.
- */
 
 public class ShowWalletPwDialog extends BaseDialog {
     private static final String TAG = ShowWalletPwDialog.class.getSimpleName();

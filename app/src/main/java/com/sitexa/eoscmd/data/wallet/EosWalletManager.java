@@ -36,10 +36,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by swapnibble on 2017-09-19.
- */
-
 public class EosWalletManager {
     private static final String EOS_WALLET_PASSWD_PREFIX = "PW";
     private static final String EOS_WALLET_FILE_EXT = ".wallet";

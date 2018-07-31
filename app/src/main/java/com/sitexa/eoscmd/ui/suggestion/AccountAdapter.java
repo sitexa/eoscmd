@@ -24,9 +24,6 @@ import java.util.List;
 
 import io.reactivex.Completable;
 
-/**
- * Created by swapnibble on 2018-01-15.
- */
 
 public class AccountAdapter extends ArrayAdapter<String> implements View.OnClickListener {
 

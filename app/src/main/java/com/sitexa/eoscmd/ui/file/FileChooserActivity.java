@@ -40,10 +40,6 @@ import java.io.File;
 import ir.sohreco.androidfilechooser.ExternalStorageNotAvailableException;
 import ir.sohreco.androidfilechooser.FileChooser;
 
-/**
- * Created by swapnibble on 2017-11-15.
- */
-
 public class FileChooserActivity extends AppCompatActivity {
 
     private final static String RESULT_FILE_PATH_KEY = "result.filepath";

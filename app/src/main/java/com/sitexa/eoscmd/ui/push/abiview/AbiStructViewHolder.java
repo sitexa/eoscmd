@@ -34,10 +34,6 @@ import com.sitexa.eoscmd.util.StringUtils;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/**
- * Created by swapnibble on 2017-12-28.
- */
-
 public class AbiStructViewHolder extends AbiViewBaseHolder<JSONObject> {
 
     private AbiViewCallback mDynViewCallback;

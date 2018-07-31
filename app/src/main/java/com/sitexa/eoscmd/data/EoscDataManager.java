@@ -66,9 +66,6 @@ import static com.sitexa.eoscmd.util.Consts.EOSIO_SYSTEM_ACCOUNT;
 import static com.sitexa.eoscmd.util.Consts.EOSIO_TOKEN_CONTRACT;
 import static com.sitexa.eoscmd.util.Consts.TX_EXPIRATION_IN_MILSEC;
 
-/**
- * Created by swapnibble on 2017-11-03.
- */
 @Singleton
 public class EoscDataManager {
 

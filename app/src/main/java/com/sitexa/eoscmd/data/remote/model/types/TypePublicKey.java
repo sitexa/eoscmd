@@ -2,10 +2,6 @@ package com.sitexa.eoscmd.data.remote.model.types;
 
 import com.sitexa.eoscmd.crypto.ec.EosPublicKey;
 
-/**
- * Created by swapnibble on 2018-03-20.
- */
-
 public class TypePublicKey implements EosType.Packer {
     private static final byte PACK_VAL_CURVE_PARAM_TYPE_K1 = 0;
     private static final byte PACK_VAL_CURVE_PARAM_TYPE_R1 = 1;

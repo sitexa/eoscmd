@@ -26,10 +26,6 @@ package com.sitexa.eoscmd.ui.push;
 import com.sitexa.eoscmd.data.remote.model.abi.EosAbiMain;
 import com.sitexa.eoscmd.ui.base.MvpView;
 
-/**
- * Created by swapnibble on 2017-11-08.
- */
-
 public interface PushMvpView extends MvpView {
     void openFileManager();
 

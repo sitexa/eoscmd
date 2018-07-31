@@ -1,8 +1,5 @@
 package com.sitexa.eoscmd.data.remote.model.types;
 
-/**
- * Created by swapnibble on 2018-05-17.
- */
 public class TypeWaitWeight implements EosType.Packer {
     private int mWaitSec; // uint32_t
     private short mWeight;

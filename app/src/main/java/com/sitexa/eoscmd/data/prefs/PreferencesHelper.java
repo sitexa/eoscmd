@@ -36,9 +36,6 @@ import java.io.File;
 import javax.inject.Inject;
 import javax.inject.Singleton;
 
-/**
- * Created by swapnibble on 2017-08-21.
- */
 @Singleton
 public class PreferencesHelper {
 

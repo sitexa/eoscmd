@@ -20,9 +20,6 @@ import com.sitexa.eoscmd.util.UiUtils;
 
 import javax.inject.Inject;
 
-/**
- * Created by swapnibble on 2018-04-16.
- */
 public class CurrencyFragment extends BaseFragment implements CurrencyMvpView {
     // belows are position of spinner
     private static final int POSITION_GET_BALANCE = 0;

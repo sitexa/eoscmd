@@ -25,9 +25,6 @@ package com.sitexa.eoscmd.ui.transfer;
 
 import com.sitexa.eoscmd.ui.base.MvpView;
 
-/**
- * Created by swapnibble on 2017-11-07.
- */
 
 public interface TransferMvpView extends MvpView {
 }

@@ -23,9 +23,6 @@
  */
 package com.sitexa.eoscmd.ui.base;
 
-/**
- * Created by swapnibble on 2017-08-24.
- */
 
 public interface MvpPresenter<V extends MvpView> {
     void attachView(V mvpView);

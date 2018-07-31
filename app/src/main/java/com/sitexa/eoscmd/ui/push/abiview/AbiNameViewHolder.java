@@ -31,10 +31,6 @@ import com.sitexa.eoscmd.R;
 import com.sitexa.eoscmd.ui.widget.TextInputAutoCompleteTextView;
 import com.sitexa.eoscmd.util.UiUtils;
 
-/**
- * Created by swapnibble on 2018-01-09.
- */
-
 public class AbiNameViewHolder extends AbiStringViewHolder {
     public AbiNameViewHolder(String key, String type, boolean isArray, LayoutInflater layoutInflater, ViewGroup parentView) {
         super(key, type, isArray, layoutInflater, parentView);

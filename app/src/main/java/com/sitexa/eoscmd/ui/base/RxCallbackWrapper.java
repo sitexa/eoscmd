@@ -34,9 +34,6 @@ import io.reactivex.observers.DisposableObserver;
 import okhttp3.ResponseBody;
 import retrofit2.HttpException;
 
-/**
- * Created by swapnibble on 2017-11-10.
- */
 
 public class RxCallbackWrapper<T> extends DisposableObserver<T> {
 

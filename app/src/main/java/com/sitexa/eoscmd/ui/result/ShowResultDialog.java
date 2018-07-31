@@ -34,10 +34,6 @@ import com.sitexa.eoscmd.R;
 import com.sitexa.eoscmd.ui.base.BaseDialog;
 import com.sitexa.eoscmd.util.StringUtils;
 
-/**
- * Created by swapnibble on 2017-11-13.
- */
-
 public class ShowResultDialog extends BaseDialog {
     private static final String TAG = ShowResultDialog.class.getSimpleName();
     private static final String ARG_TITLE = "show.data.title";

@@ -39,9 +39,6 @@ import com.sitexa.eoscmd.util.StringUtils;
 
 import javax.inject.Inject;
 
-/**
- * Created by swapnibble on 2018-01-15.
- */
 
 public class MsgInputActivity extends BaseActivity implements MsgInputMvpView {
     private static final String EXTRA_ABI_KEY = "abi.obj";

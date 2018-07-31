@@ -32,9 +32,6 @@ import com.sitexa.eoscmd.util.Utils;
 
 import javax.inject.Inject;
 
-/**
- * Created by swapnibble on 2017-11-07.
- */
 
 public class TransferPresenter extends BasePresenter<TransferMvpView> {
 

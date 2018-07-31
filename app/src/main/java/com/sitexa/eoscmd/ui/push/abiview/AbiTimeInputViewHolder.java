@@ -37,11 +37,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-
-/**
- * Created by swapnibble on 2017-12-29.
- */
-
 public class AbiTimeInputViewHolder extends AbiViewBaseHolder<String> {
 
     public AbiTimeInputViewHolder(String key, String type, boolean isArray, LayoutInflater layoutInflater, ViewGroup parentView) {

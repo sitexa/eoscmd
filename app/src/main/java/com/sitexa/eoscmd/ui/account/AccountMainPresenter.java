@@ -36,10 +36,6 @@ import javax.inject.Inject;
 
 import io.reactivex.Completable;
 
-/**
- * Created by swapnibble on 2017-11-16.
- */
-
 public class AccountMainPresenter extends BasePresenter<AccountMainMvpView> {
 
     @Inject

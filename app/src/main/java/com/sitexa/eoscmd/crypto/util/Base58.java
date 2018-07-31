@@ -26,12 +26,12 @@ import java.math.BigInteger;
  * this is not the same base58 as used by Flickr, which you may see reference to
  * around the internet.
  * </p>
- *
- *
+ * <p>
+ * <p>
  * <p>
  * Satoshi says: why base-58 instead of standard base-64 encoding?
  * <p>
- *
+ * <p>
  * <ul>
  * <li>Don't want 0OIl characters that look the same in some fonts and could be
  * used to create visually identical looking account numbers.</li>
@@ -56,7 +56,9 @@ public class Base58 {
         }
     }
 
-    /** Encodes the given bytes in base58. No checksum is appended. */
+    /**
+     * Encodes the given bytes in base58. No checksum is appended.
+     */
     public static String encode(byte[] input) {
         if (input.length == 0) {
             return "";

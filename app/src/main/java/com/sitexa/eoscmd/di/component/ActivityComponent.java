@@ -18,9 +18,6 @@ import com.sitexa.eoscmd.ui.wallet.dlg.InputDataDialog;
 
 import dagger.Component;
 
-/**
- * Created by swapnibble on 2017-08-24.
- */
 @PerActivity
 @Component(dependencies = AppComponent.class, modules = ActivityModule.class)
 public interface ActivityComponent {

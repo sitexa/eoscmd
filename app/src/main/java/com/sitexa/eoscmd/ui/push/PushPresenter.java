@@ -44,11 +44,6 @@ import java.util.StringTokenizer;
 
 import javax.inject.Inject;
 
-
-/**
- * Created by swapnibble on 2017-11-08.
- */
-
 public class PushPresenter extends BasePresenter<PushMvpView> {
     private static final String KEY_FOR_ABI_OBJECT = "push_action_abi";
     @Inject

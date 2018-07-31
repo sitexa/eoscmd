@@ -25,10 +25,6 @@ package com.sitexa.eoscmd.ui.account;
 
 import com.sitexa.eoscmd.ui.base.MvpView;
 
-/**
- * Created by swapnibble on 2017-11-16.
- */
-
 public interface AccountMainMvpView extends MvpView {
     void showAccountInfo(int titleRscId, String account, String info, String statusInfo);
 

@@ -28,10 +28,6 @@ import android.support.annotation.StringRes;
 import com.sitexa.eoscmd.R;
 import com.sitexa.eoscmd.util.StringUtils;
 
-/**
- * Created by swapnibble on 2017-11-13.
- */
-
 public enum AccountInfoType {
     REGISTRATION(R.string.get_account), // eosc get account <account>
     TRANSACTIONS(R.string.get_transactions), // eosc get transaction <account>

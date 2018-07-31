@@ -11,10 +11,6 @@ import android.util.AttributeSet;
 
 import com.sitexa.eoscmd.R;
 
-/**
- * Created by swapnibble on 2017-12-18.
- */
-
 public class TintVtDrTextView extends AppCompatTextView {
     public TintVtDrTextView(Context context) {
         super(context);

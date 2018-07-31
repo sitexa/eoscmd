@@ -29,11 +29,6 @@ import com.sitexa.eoscmd.util.RefValue;
 
 import java.util.Arrays;
 
-
-/**
- * Created by swapnibble on 2017-09-25.
- */
-
 public class EosPublicKey {
     private static final String LEGACY_PREFIX = "EOS";
     private static final String PREFIX = "PUB";

@@ -47,11 +47,6 @@ import com.sitexa.eoscmd.di.module.ActivityModule;
 import com.sitexa.eoscmd.ui.result.ShowResultDialog;
 import com.sitexa.eoscmd.util.UiUtils;
 
-
-/**
- * Created by swapnibble on 2017-08-24.
- */
-
 public class BaseActivity extends AppCompatActivity implements MvpView {
     private ActivityComponent mActivityComponent;
 

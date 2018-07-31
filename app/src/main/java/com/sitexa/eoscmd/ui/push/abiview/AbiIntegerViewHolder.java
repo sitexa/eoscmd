@@ -35,10 +35,6 @@ import com.sitexa.eoscmd.util.Utils;
 
 import static android.text.InputType.TYPE_NUMBER_FLAG_SIGNED;
 
-/**
- * Created by swapnibble on 2018-01-09.
- */
-
 public class AbiIntegerViewHolder extends AbiViewBaseHolder<Long> {
     private static final String TYPE_PREFIX_FOR_SIGNED = "int";
 

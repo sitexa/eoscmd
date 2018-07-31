@@ -25,10 +25,6 @@ package com.sitexa.eoscmd.data.remote.model.api;
 
 import com.google.gson.annotations.Expose;
 
-/**
- * Created by swapnibble on 2017-09-14.
- */
-
 public class AccountInfoRequest {
 
     @Expose

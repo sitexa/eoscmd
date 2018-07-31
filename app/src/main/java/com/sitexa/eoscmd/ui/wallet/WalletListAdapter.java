@@ -34,9 +34,6 @@ import com.sitexa.eoscmd.data.wallet.EosWallet;
 
 import java.util.ArrayList;
 
-/**
- * Created by swapnibble on 2017-11-13.
- */
 
 public class WalletListAdapter extends RecyclerView.Adapter<WalletListAdapter.WalletVH> {
 

@@ -25,9 +25,6 @@ package com.sitexa.eoscmd.data.remote.model.types;
 
 import java.util.Collection;
 
-/**
- * Created by swapnibble on 2017-09-12.
- */
 
 public interface EosType {
     interface Packer {

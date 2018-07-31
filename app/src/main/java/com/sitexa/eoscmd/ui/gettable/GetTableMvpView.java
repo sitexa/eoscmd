@@ -27,10 +27,6 @@ import com.sitexa.eoscmd.ui.base.MvpView;
 
 import java.util.List;
 
-/**
- * Created by swapnibble on 2017-11-17.
- */
-
 public interface GetTableMvpView extends MvpView {
     void showTableResult(String result, String statusInfo);
 

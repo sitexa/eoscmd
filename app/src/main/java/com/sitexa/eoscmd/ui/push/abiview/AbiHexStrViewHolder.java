@@ -28,11 +28,6 @@ import android.view.ViewGroup;
 
 import com.sitexa.eoscmd.R;
 
-
-/**
- * Created by swapnibble on 2018-01-02.
- */
-
 public class AbiHexStrViewHolder extends AbiStringViewHolder {
 
     public AbiHexStrViewHolder(String key, String type, boolean isArray, LayoutInflater layoutInflater, ViewGroup parentView) {

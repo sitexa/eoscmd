@@ -36,9 +36,6 @@ import io.reactivex.disposables.Disposable;
 import okhttp3.ResponseBody;
 import retrofit2.HttpException;
 
-/**
- * Created by swapnibble on 2017-08-24.
- */
 
 public class BasePresenter<V extends MvpView> implements MvpPresenter<V> {
     protected RefValue<Long> mAccountHistoryVersion = new RefValue<>(0L);

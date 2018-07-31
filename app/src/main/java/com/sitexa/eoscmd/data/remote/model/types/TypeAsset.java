@@ -28,11 +28,6 @@ import com.sitexa.eoscmd.util.StringUtils;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-
-/**
- * Created by swapnibble on 2017-09-12.
- */
-
 public class TypeAsset implements EosType.Packer {
 
     public static final String CORE_SYMBOL_NAME = "SYS";

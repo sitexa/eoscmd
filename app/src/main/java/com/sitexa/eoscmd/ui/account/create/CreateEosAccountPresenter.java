@@ -42,10 +42,6 @@ import javax.inject.Inject;
 
 import io.reactivex.Observable;
 
-/**
- * Created by swapnibble on 2017-11-06.
- */
-
 public class CreateEosAccountPresenter extends BasePresenter<CreateEosAccountMvpView> {
     @Inject
     EoscDataManager mDataManager;

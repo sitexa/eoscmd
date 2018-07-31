@@ -27,9 +27,6 @@ package com.sitexa.eoscmd.ui.push.abiview;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * Created by swapnibble on 2018-01-10.
- */
 
 public interface AbiViewCallback {
     View onRequestAbiViewHolder(String typeName, ViewGroup parentView);

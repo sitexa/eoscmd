@@ -23,10 +23,6 @@
  */
 package com.sitexa.eoscmd.data.remote.model.api;
 
-/**
- * Created by swapnibble on 2017-09-08.
- */
-
 import com.google.gson.annotations.Expose;
 
 import java.text.DateFormat;

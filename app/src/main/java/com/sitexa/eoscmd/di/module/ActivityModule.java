@@ -9,9 +9,6 @@ import com.sitexa.eoscmd.ui.CmdPagerAdapter;
 import dagger.Module;
 import dagger.Provides;
 
-/**
- * Created by swapnibble on 2017-08-24.
- */
 @Module
 public class ActivityModule {
     private AppCompatActivity mActivity;

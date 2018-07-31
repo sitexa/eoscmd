@@ -2,10 +2,6 @@ package com.sitexa.eoscmd.data.local.repository;
 
 import java.util.List;
 
-/**
- * Created by swapnibble on 2017-12-14.
- */
-
 public interface EosAccountRepository {
     void addAll(String... accountNames);
 

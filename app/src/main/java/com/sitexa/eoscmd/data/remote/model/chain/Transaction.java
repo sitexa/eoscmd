@@ -6,10 +6,6 @@ import com.sitexa.eoscmd.data.remote.model.types.EosType;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by swapnibble on 2018-03-19.
- */
-
 public class Transaction extends TransactionHeader {
     @Expose
     private List<Action> context_free_actions = new ArrayList<>();

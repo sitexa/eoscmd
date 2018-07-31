@@ -43,10 +43,6 @@ import org.json.JSONObject;
 
 import java.lang.ref.WeakReference;
 
-/**
- * Created by swapnibble on 2018-01-08.
- */
-
 public abstract class AbiViewBaseHolder<T> {
     private static final int MAX_ARRAY_SIZE = 32;
     private static WeakReference<AbiViewCallback> mDynViewCallbackRef;

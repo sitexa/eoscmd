@@ -20,10 +20,6 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-/**
- * Created by swapnibble on 2018-04-04.
- */
-
 public class GsonEosTypeAdapterFactory implements TypeAdapterFactory {
 
     private Map<Class<?>, TypeAdapter<?>> adapters = new LinkedHashMap<>();

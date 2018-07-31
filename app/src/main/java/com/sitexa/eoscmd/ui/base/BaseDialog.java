@@ -45,10 +45,6 @@ import android.widget.RelativeLayout;
 import com.sitexa.eoscmd.di.component.ActivityComponent;
 
 
-/**
- * Created by swapnibble on 2017-08-25.
- */
-
 public abstract class BaseDialog extends DialogFragment implements DialogMvpView {
     private BaseActivity mActivity;
 

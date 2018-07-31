@@ -3,10 +3,6 @@ package com.sitexa.eoscmd.data.remote.model.api;
 import com.google.gson.annotations.Expose;
 import com.sitexa.eoscmd.data.remote.model.types.TypeAccountName;
 
-
-/**
- * Created by swapnibble on 2018-04-16.
- */
 public class GetBalanceRequest extends GetRequestForCurrency {
 
     @Expose

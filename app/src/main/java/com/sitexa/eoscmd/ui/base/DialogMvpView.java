@@ -23,10 +23,6 @@
  */
 package com.sitexa.eoscmd.ui.base;
 
-/**
- * Created by swapnibble on 2017-08-25.
- */
-
 public interface DialogMvpView extends MvpView {
     void dismissDialog(String tag);
 }

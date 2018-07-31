@@ -23,13 +23,9 @@
  */
 package com.sitexa.eoscmd.data.remote.model.types;
 
-
 import com.google.gson.annotations.Expose;
 import com.sitexa.eoscmd.crypto.util.HexUtils;
 
-/**
- * Created by swapnibble on 2017-09-15.
- */
 
 public class EosTransfer implements EosType.Packer {
     @Expose

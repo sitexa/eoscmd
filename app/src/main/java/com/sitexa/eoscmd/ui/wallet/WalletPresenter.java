@@ -36,10 +36,6 @@ import javax.inject.Inject;
 
 import io.reactivex.Observable;
 
-/**
- * Created by swapnibble on 2017-11-08.
- */
-
 public class WalletPresenter extends BasePresenter<WalletMvpView> {
 
     @Inject

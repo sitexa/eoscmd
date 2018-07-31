@@ -6,9 +6,6 @@ import android.arch.persistence.room.Index;
 import android.arch.persistence.room.PrimaryKey;
 import android.support.annotation.NonNull;
 
-/**
- * Created by swapnibble on 2017-12-08.
- */
 @Entity(tableName = "eos_account", indices = {@Index(value = "account_name", unique = true)})
 public class EosAccount {
     public static final int TYPE_ACCOUNT_ALL = 0;

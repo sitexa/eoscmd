@@ -36,10 +36,6 @@ import com.sitexa.eoscmd.ui.base.BaseDialog;
 import com.sitexa.eoscmd.util.StringUtils;
 import com.sitexa.eoscmd.util.UiUtils;
 
-/**
- * Created by swapnibble on 2017-11-15.
- * input wallet password ({@link Type#Password}) or key ( {@link Type#Key} )
- */
 
 public class InputDataDialog extends BaseDialog {
 

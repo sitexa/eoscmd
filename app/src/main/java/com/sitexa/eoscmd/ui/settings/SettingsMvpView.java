@@ -26,9 +26,6 @@ package com.sitexa.eoscmd.ui.settings;
 
 import com.sitexa.eoscmd.ui.base.MvpView;
 
-/**
- * Created by swapnibble on 2017-11-03.
- */
 
 public interface SettingsMvpView extends MvpView {
 

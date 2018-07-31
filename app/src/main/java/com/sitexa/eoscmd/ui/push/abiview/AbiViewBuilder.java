@@ -48,10 +48,6 @@ import java.util.Set;
 import java.util.TreeMap;
 
 
-/**
- * Created by swapnibble on 2017-12-26.
- */
-
 public class AbiViewBuilder implements AbiViewCallback {
     private Map<String, Class<? extends AbiViewBaseHolder>> mBuiltinTypeToVH;
     private LayoutInflater mLayoutInflater;

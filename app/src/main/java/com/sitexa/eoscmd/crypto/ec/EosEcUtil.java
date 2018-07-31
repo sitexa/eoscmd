@@ -33,16 +33,12 @@ import com.sitexa.eoscmd.util.StringUtils;
 import java.util.Arrays;
 import java.util.regex.PatternSyntaxException;
 
-/**
- * Created by swapnibble on 2018-02-02.
- */
-
 public class EosEcUtil {
 
     public static final String PREFIX_K1 = "K1";
     public static final String PREFIX_R1 = "R1";
 
-//    public static byte[] decodeEosCrypto(String base58Data, RefValue<CurveParam> curveParamRef, RefValue<Long> checksumRef ){
+    //    public static byte[] decodeEosCrypto(String base58Data, RefValue<CurveParam> curveParamRef, RefValue<Long> checksumRef ){
 //
 //        final byte[] retKeyData;
 //

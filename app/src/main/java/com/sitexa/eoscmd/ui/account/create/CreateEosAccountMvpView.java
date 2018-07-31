@@ -27,10 +27,6 @@ import com.sitexa.eoscmd.ui.base.MvpView;
 
 import java.util.ArrayList;
 
-/**
- * Created by swapnibble on 2017-11-06.
- */
-
 public interface CreateEosAccountMvpView extends MvpView {
 
     void showCreator(String creator);

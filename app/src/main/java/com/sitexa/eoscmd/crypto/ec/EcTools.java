@@ -22,10 +22,6 @@ package com.sitexa.eoscmd.crypto.ec;
 
 import java.math.BigInteger;
 
-/**
- * modified by swapnibble from plactal.io
- * Various tools for elliptic curves
- */
 public class EcTools {
 
     private static CurveParam[] sCurveParams = new CurveParam[2];

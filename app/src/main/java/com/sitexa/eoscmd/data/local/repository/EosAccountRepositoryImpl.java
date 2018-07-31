@@ -6,10 +6,6 @@ import com.sitexa.eoscmd.data.local.db.EosAccount;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by swapnibble on 2017-12-14.
- */
-
 public class EosAccountRepositoryImpl implements EosAccountRepository {
 
     private AppDatabase mAppDatabase;

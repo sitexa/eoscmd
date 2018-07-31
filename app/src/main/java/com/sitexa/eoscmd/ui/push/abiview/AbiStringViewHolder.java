@@ -31,10 +31,6 @@ import android.view.ViewGroup;
 
 import com.sitexa.eoscmd.R;
 
-/**
- * Created by swapnibble on 2017-12-28.
- */
-
 public class AbiStringViewHolder extends AbiViewBaseHolder<String> {
 
     public AbiStringViewHolder(String key, String type, boolean isArray, LayoutInflater layoutInflater, ViewGroup parentView) {

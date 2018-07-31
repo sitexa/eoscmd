@@ -28,9 +28,6 @@ import com.sitexa.eoscmd.ui.base.MvpView;
 
 import java.util.ArrayList;
 
-/**
- * Created by swapnibble on 2017-11-08.
- */
 
 public interface WalletMvpView extends MvpView {
 

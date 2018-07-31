@@ -36,9 +36,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- * Created by swapnibble on 2017-09-11.
- */
 
 public class Action implements EosType.Packer {
     @Expose
@@ -94,6 +91,10 @@ public class Action implements EosType.Packer {
         return authorization;
     }
 
+    public void setAuthorization(TypePermissionLevel[] authorization) {
+        this.authorization.addAll(Arrays.asList(authorization));
+    }
+
     public void setAuthorization(String[] accountWithPermLevel) {
         if (null == accountWithPermLevel) {
             return;
@@ -107,10 +108,6 @@ public class Action implements EosType.Packer {
 
     public void setAuthorization(List<TypePermissionLevel> authorization) {
         this.authorization = authorization;
-    }
-
-    public void setAuthorization(TypePermissionLevel[] authorization) {
-        this.authorization.addAll(Arrays.asList(authorization));
     }
 
     public JsonElement getData() {

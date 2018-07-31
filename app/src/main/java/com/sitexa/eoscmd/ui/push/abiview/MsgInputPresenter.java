@@ -30,9 +30,6 @@ import com.sitexa.eoscmd.ui.base.BasePresenter;
 
 import javax.inject.Inject;
 
-/**
- * Created by swapnibble on 2018-01-12.
- */
 
 public class MsgInputPresenter extends BasePresenter<MsgInputMvpView> {
     @Inject

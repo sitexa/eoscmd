@@ -42,10 +42,6 @@ import javax.inject.Inject;
 
 import io.reactivex.disposables.CompositeDisposable;
 
-/**
- * Created by swapnibble on 2017-11-16.
- */
-
 public class InputAccountDialog extends BaseDialog {
     private static final String TAG = InputAccountDialog.class.getSimpleName();
     private static final String ARG_INFO_TYPE = "type.for";

@@ -45,10 +45,6 @@ import retrofit2.http.Body;
 import retrofit2.http.POST;
 import retrofit2.http.Path;
 
-/**
- * Created by swapnibble on 2017-09-08.
- */
-
 public interface NodeosApi {
 
     String ACCOUNT_HISTORY_GET_TRANSACTIONS = "get_transactions";

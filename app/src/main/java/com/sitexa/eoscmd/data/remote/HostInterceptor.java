@@ -33,9 +33,6 @@ import okhttp3.Interceptor;
 import okhttp3.Request;
 import okhttp3.Response;
 
-/**
- * Created by swapnibble on 2017-11-03.
- */
 public class HostInterceptor implements Interceptor {
 
     private String mHost;

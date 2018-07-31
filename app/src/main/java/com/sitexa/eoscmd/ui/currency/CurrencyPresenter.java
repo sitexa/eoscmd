@@ -6,9 +6,6 @@ import com.sitexa.eoscmd.ui.base.RxCallbackWrapper;
 
 import javax.inject.Inject;
 
-/**
- * Created by swapnibble on 2018-04-16.
- */
 public class CurrencyPresenter extends BasePresenter<CurrencyMvpView> {
     @Inject
     EoscDataManager mDataManager;

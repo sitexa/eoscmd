@@ -25,10 +25,6 @@ package com.sitexa.eoscmd.data.remote.model.types;
 
 import com.sitexa.eoscmd.util.StringUtils;
 
-/**
- * Created by swapnibble on 2017-09-12.
- */
-
 public class TypeAccountName extends TypeName {
     private static final int MAX_ACCOUNT_NAME_LEN = 12;
 

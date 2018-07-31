@@ -39,9 +39,6 @@ import com.sitexa.eoscmd.util.StringUtils;
 
 import javax.inject.Inject;
 
-/**
- * Created by swapnibble on 2017-11-08.
- */
 
 public class CreateWalletDialog extends BaseDialog implements MvpView {
 

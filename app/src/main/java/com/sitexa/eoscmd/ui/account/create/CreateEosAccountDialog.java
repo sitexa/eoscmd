@@ -45,10 +45,6 @@ import java.util.ArrayList;
 
 import javax.inject.Inject;
 
-/**
- * Created by swapnibble on 2017-11-06.
- */
-
 public class CreateEosAccountDialog extends BaseDialog implements CreateEosAccountMvpView {
     private static final String TAG = CreateEosAccountDialog.class.getSimpleName();
 

@@ -2,10 +2,6 @@ package com.sitexa.eoscmd.data.remote.model.chain;
 
 import com.google.gson.annotations.Expose;
 
-/**
- * Created by swapnibble on 2018-04-04.
- */
-
 public class TransactionReceiptHeader {
 
 //    enum status_enum {

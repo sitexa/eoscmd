@@ -8,9 +8,6 @@ import android.arch.persistence.room.Query;
 
 import java.util.List;
 
-/**
- * Created by swapnibble on 2017-12-11.
- */
 @Dao
 public interface EosAccountDao {
     @Query("SELECT account_name FROM eos_account ORDER BY account_name")

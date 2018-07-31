@@ -36,10 +36,6 @@ import java.util.List;
 
 import javax.inject.Inject;
 
-/**
- * Created by swapnibble on 2017-11-17.
- */
-
 public class GetTablePresenter extends BasePresenter<GetTableMvpView> {
     @Inject
     EoscDataManager mDataManager;

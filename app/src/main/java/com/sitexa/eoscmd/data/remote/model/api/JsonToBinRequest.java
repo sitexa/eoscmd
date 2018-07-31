@@ -27,10 +27,6 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 import com.google.gson.annotations.Expose;
 
-/**
- * Created by swapnibble on 2017-11-17.
- */
-
 public class JsonToBinRequest {
     @Expose
     private String code;

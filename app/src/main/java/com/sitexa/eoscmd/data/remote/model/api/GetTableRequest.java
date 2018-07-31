@@ -3,10 +3,6 @@ package com.sitexa.eoscmd.data.remote.model.api;
 import com.google.gson.annotations.Expose;
 import com.sitexa.eoscmd.util.StringUtils;
 
-/**
- * Created by swapnibble on 2017-09-15.
- */
-
 public class GetTableRequest {
     private static final int DEFAULT_FETCH_LIMIT = 10;
 

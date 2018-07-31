@@ -33,10 +33,6 @@ import com.sitexa.eoscmd.R;
 
 import static android.text.InputType.TYPE_NUMBER_FLAG_SIGNED;
 
-/**
- * Created by swapnibble on 2018-01-11.
- * abi view for integer above long
- */
 
 public class AbiBigIntegerViewHolder extends AbiStringViewHolder {
     private static final String TYPE_PREFIX_FOR_SIGNED = "int";

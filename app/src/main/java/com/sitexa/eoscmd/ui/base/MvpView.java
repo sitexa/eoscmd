@@ -25,9 +25,6 @@ package com.sitexa.eoscmd.ui.base;
 
 import android.support.annotation.StringRes;
 
-/**
- * Created by swapnibble on 2017-08-24.
- */
 
 public interface MvpView {
     void showLoading(boolean show);

@@ -52,10 +52,6 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Created by swapnibble on 2017-09-25.
- */
-
 public class EosWallet implements EosType.Packer, EosType.Unpacker {
 
     private static int ENCRYPT_KEY_LEN = 32;
@@ -71,6 +67,7 @@ public class EosWallet implements EosType.Packer, EosType.Unpacker {
      */
     private Map<EosPublicKey, String> mKeys;
     private Sha512 mChecksum;
+
     public EosWallet() {
         this(null);
     }
